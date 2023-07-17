@@ -30,8 +30,6 @@ public class Main {
             randomStudent = randomStudent.substring(0, randomStudent.length() - 2);
             System.out.println((i + 1) + " - " + randomStudent + gender.getPostFix());
             studentArray = studentListManager.removeStudentFromArray(studentArray, index);
-
-
         }
     }
 
